@@ -1,0 +1,7 @@
+flask
+requests
+openai
+google-cloud-texttospeech
+google-cloud-speech
+python-dotenv
+gunicorn
