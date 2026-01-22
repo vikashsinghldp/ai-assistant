@@ -1,4 +1,5 @@
 from openai import OpenAI
+import os
 
 client = OpenAI(os.getenv("OPENAI_API_KEY"))
 
@@ -11,4 +12,5 @@ def ai_reply(user_text):
         ]
     )
     return response.choices[0].message.content
+
 
